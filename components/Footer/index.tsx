@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { PressCoverage } from 'components';
 import Link from 'next/link';
 import styles from './Footer.module.css';
 
@@ -23,7 +22,7 @@ const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
 
 // Components now use CSS modules
 
-const Footer = () => (
+/* const Footer = () => (
     <>
         <PressCoverage />
         <footer className={styles.footerContainer}>
@@ -97,5 +96,6 @@ const Footer = () => (
             </div>
         </footer>
     </>
-);
+); 
 export default Footer;
+*/
